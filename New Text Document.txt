@@ -1,0 +1,34 @@
+1) select folder from my files
+2) open terminal in vs use command -npm init
+3) create new file index.js in vs
+4) use below code in index.js
+ const express=require('express')
+
+const app=express();
+
+app.use(express.static('public'))
+
+app.listen(4000,()=>{
+    console.log("server is started"); 
+})
+5) use command npm install express --save  in terminal 
+6) now run the code in index.js o/p- server is started
+7) create new folder public in this folder create new file index.html
+Use below code in index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NODE JS</title>
+</head>
+<body>
+<h1>THIS IS A STATIC WEB SERVED BY NODE.JS</H1>
+<h2>Created by jhon DOE</h2>
+<h3>TE-35</h3>
+<h4>Branch-IT</h4>
+<h5>Division-A</h5>
+</body>
+</html>
+Run the code
